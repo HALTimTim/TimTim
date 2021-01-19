@@ -26,7 +26,7 @@
         <ul class="header-list flex j-a">
           <li class="header-list-form-area">
             <form action="" class="flex">
-              <input type="" class="form-control flex" placeholder="" />
+              <input type="text" class="form-control flex" placeholder="人の名前を入力してください" />
               <input type="button" value="検索" class="btn btn-secondary" />
             </form>
           </li>
@@ -42,20 +42,19 @@
             <li>
               <a href="./service.php"><i class="fas fa-question-circle text-white"></i></a>
             </li>
-            <!-- <li><button type="button" class="btn btn-danger">ログアウト</button></li> -->
+            <li>
+              <form action='' method='post'>
+                <button type="submit" value='logout' name='logout' class="btn btn-danger">ログアウト</button>
+              </form>
+            </li>
           </div>
         </ul>
       </div>
       <nav>
         <ul class="gnav flex j-a">
           <div class="nav-left flex">
-            <li class="nav-downicon">
-              <a href="">男女別</a>
-              <ul>
-                <li><a href="">すべて</a></li>
-                <li><a href="">レディース</a></li>
-                <li><a href="">メンズ</a></li>
-              </ul>
+            <li>
+              <a href="./reservation.php">出品者を捜す</a>
             </li>
             <li><a href="./giveaway.php">景品一覧</a></li>
           </div>
@@ -257,17 +256,53 @@
                 <li>
                   <h3>メンズ人気</h3>
                   <ul class="footer-list-box-list">
-                    <li><a href="">カジュアル</a></li>
-                    <li><a href="">ストリート</a></li>
-                    <li><a href="">きれいめ</a></li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C1" value="C1">
+                          カジュアル系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C11" value="C11">
+                          ストリート系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C20" value="C20">
+                          きれいめ系
+                        </button>
+                      </form>
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <h3>レディース人気</h3>
                   <ul class="footer-list-box-list">
-                    <li><a href="">カジュアル</a></li>
-                    <li><a href="">大人系女子</a></li>
-                    <li><a href="">セクシー</a></li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C1" value="C1">
+                          カジュアル系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C5" value="C5">
+                          ベーシック系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C9" value="C9">
+                          セクシー系
+                        </button>
+                      </form>
+                    </li>
                   </ul>
                 </li>
 

@@ -15,8 +15,10 @@
     .posted-main-bottom-right-img-list img {
       width: 140px;
     }
+
   </style>
 </head>
+top_category.php
 
 <body>
   <div class="warp">
@@ -91,119 +93,119 @@
           <p class="main-left-title">カテゴリ別</p>
           <ul class="main-left-list">
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C1" value="C1">
                   カジュアル系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C10" value="C10">
                   モード系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C11" value="C11">
                   ストリート系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C12" value="C12">
                   渋谷系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C14" value="C14">
                   ドラッド系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C15" value="C15">
                   キジカレ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C18" value="C18">
                   スポーティ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C20" value="C20">
                   きれいめ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C21" value="C21">
                   アメカジ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C23" value="C23">
                   サーフ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C24" value="C24">
                   サロン系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C3" value="C3">
                   コンサバ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C5" value="C5">
                   ベーシック系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C6" value="C6">
                   フェミニン系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C7" value="C7">
                   ガーリッシュ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C8" value="C8">
                   ボーイッシュ系
                 </button>
               </form>
             </li>
             <li>
-              <form action='' method='post'>
+              <form action='top_category.php' method='post'>
                 <button type="submit" class="btn btn-link" name="C9" value="C9">
                   セクシー系
                 </button>
@@ -267,8 +269,8 @@
                   <!-- 画像エリア -->
                   <div class="posted-main-bottom-right-img">
                     <?php if (isset($post_choise_id)) : ?>
-                      <img src="./img/POST_img/<?php echo $choise_img; ?>.jpg" alt="プロフ画像" />
-                      <p><?php echo $choise_caption; ?></p>
+                    <img src="./img/POST_img/<?php echo $choise_img; ?>.jpg" alt="プロフ画像" />
+                    <p><?php echo $choise_caption; ?></p>
                     <?php endif; ?>
                     <div>
                       <p>画像を削除します?</p>
@@ -289,13 +291,13 @@
                   </div>
                   <div class="posted-main-bottom-right-img-list">
                     <?php foreach ($post_result as $value) : ?>
-                      <p>
-                        <!-- 削除 -->
-                        <p><?php echo $value['post_id']; ?></p>
-                        <a href="delete.php?id=<?php echo $value['post_id']; ?>">
-                          <img src="./img/POST_img/<?php echo $value['post_img']; ?>.jpg" alt="プロフ画像" />
-                        </a>
-                      </p>
+                    <p>
+                      <!-- 削除 -->
+                      <p><?php echo $value['post_id']; ?></p>
+                      <a href="delete.php?id=<?php echo $value['post_id']; ?>">
+                        <img src="./img/POST_img/<?php echo $value['post_img']; ?>.jpg" alt="プロフ画像" />
+                      </a>
+                    </p>
                     <?php endforeach; ?>
                   </div>
                 </div>
@@ -324,17 +326,53 @@
                 <li>
                   <h3>メンズ人気</h3>
                   <ul class="footer-list-box-list">
-                    <li><a href="">カジュアル</a></li>
-                    <li><a href="">ストリート</a></li>
-                    <li><a href="">きれいめ</a></li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C1" value="C1">
+                          カジュアル系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C11" value="C11">
+                          ストリート系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C20" value="C20">
+                          きれいめ系
+                        </button>
+                      </form>
+                    </li>
                   </ul>
                 </li>
                 <li>
                   <h3>レディース人気</h3>
                   <ul class="footer-list-box-list">
-                    <li><a href="">カジュアル</a></li>
-                    <li><a href="">大人系女子</a></li>
-                    <li><a href="">セクシー</a></li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C1" value="C1">
+                          カジュアル系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C5" value="C5">
+                          ベーシック系
+                        </button>
+                      </form>
+                    </li>
+                    <li>
+                      <form action='top_category.php' method='post'>
+                        <button type="submit" class="btn btn-link" name="C9" value="C9">
+                          セクシー系
+                        </button>
+                      </form>
+                    </li>
                   </ul>
                 </li>
 
