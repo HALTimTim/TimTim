@@ -1,0 +1,34 @@
+.contact-title {
+    margin: 40px;
+}
+.contact-form {
+    margin: 0 0 0 50px;
+}
+.contact-button {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(7, 133, 184);
+    color: snow;
+}
+.contact-ans {
+    width: 200px;
+    height: 100px;
+    margin: 0 0 0 40px;
+}
+.contact-q {
+    width: 100px;
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    font-size: 50px;
+}
+.contact-a {
+    width: 100px; 
+    text-align: center;
+    background-color: rgb(235, 57, 57);
+    color: white;
+    font-size: 50px;
+}
+.contact-QA {
+    text-align: center
+}

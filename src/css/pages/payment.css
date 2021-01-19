@@ -1,0 +1,37 @@
+.margin-right{
+  width: 100%;
+  margin: 0 auto;
+}
+.payment{
+  text-align: center;
+}
+.paymenu{
+  margin-top: 2%;
+}
+.paymenu button{
+  border-radius: 15px;
+}
+.paymenu img{
+  width: 150px;
+  border-radius: 15px;
+}
+.number{
+  width: 100%;
+}
+.credit{
+  display: flex;
+}
+.security{
+  padding-left: 10%;
+}
+.button{
+  width: 85%;
+  text-align: center;
+}
+.button #sub1{
+  margin-right: 8%;
+}
+.cardinfo{
+  width: 50%;
+  margin: 0 auto;
+}

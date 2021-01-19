@@ -1,0 +1,138 @@
+.helpSearch {
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleCommon,
+.helpCategoryList h3 {
+    border-bottom: 1px solid #ececec;
+    color: #313131;
+}
+
+.titleCommon {
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.helpCategoryTitle h2 {
+    line-height: 45px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.helpCategoryList {
+    padding-left: 20px;
+}
+
+.helpCategoryList h3 {
+    line-height: 45px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/*footer*/
+.footer-content a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-content h3 {
+    font-size: 1em;
+}
+
+.footer-left {
+    width: 64%;
+    padding-top: 50px;
+}
+
+.footer-list {
+    width: 90%;
+    color: var(--white);
+    height: 200px;
+    background-color: #5d5d5d;
+}
+
+.footer-list-box>li {
+    font-size: 25px;
+    margin: 28px;
+}
+
+.footer-list-box-list {
+    font-size: 0.7em;
+}
+
+.helpDropdown .dropdown1,
+.helpDropdown .dropdown2,
+.helpDropdown .dropdown3,
+.helpDropdown .dropdown4 {
+    display: none;
+}
+
+.helpDropdown label,
+.helpCategoryList li {
+    display: block;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: #fff 1px solid;
+    font-family: sans-serif;
+    letter-spacing: .05em;
+    font-weight: bold;
+}
+
+.helpDropdown li::before {
+    display: block;
+    position: absolute;
+    right: 5%;
+    width: .5em;
+    height: .5em;
+    border-top: #000 2px solid;
+    border-left: #000 2px solid;
+    transform: rotate(135deg);
+}
+
+.helpDropdown label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 5%;
+    width: .5em;
+    height: .5em;
+    border-top: #000 2px solid;
+    border-left: #000 2px solid;
+    transform: rotate(135deg);
+}
+
+.helpDropdown input[type="checkbox"] {
+    display: none;
+}
+
+.helpDropdown label[for="menu1"],
+.helpDropdown label[for="menu2"],
+.helpDropdown label[for="menu3"],
+.helpDropdown label[for="menu4"] {
+    display: block;
+}
+
+.helpDropdown label[for="menu1"]::before,
+.helpDropdown label[for="menu2"]::before,
+.helpDropdown label[for="menu3"]::before,
+.helpDropdown label[for="menu4"]::before {
+    transform: rotate(225deg);
+}
+
+#menu1:checked+.dropdown1,
+#menu2:checked+.dropdown2,
+#menu3:checked+.dropdown3,
+#menu4:checked+.dropdown4 {
+    display: block;
+}
+
+.helpCategoryList .cancel p,
+.helpCategoryList .login p,
+.helpCategoryList .login h4 {
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}

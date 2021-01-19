@@ -1,0 +1,28 @@
+.warp {
+  width: 100%;
+  font-family: "Yu Mincho";
+  font-size: 20px;
+  /* background-color: rgb(236, 245, 245); */
+}
+.flex {
+  width: 100%;
+  display: flex;
+}
+.j-c {
+  justify-content: center;
+}
+.j-a {
+  justify-content: space-around;
+}
+.j-b {
+  justify-content: space-between;
+}
+.j-l {
+  justify-content: left;
+}
+.j-e {
+  justify-content: flex-end;
+}
+.fas {
+  font-size: 35px;
+}

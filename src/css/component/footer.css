@@ -1,0 +1,93 @@
+footer {
+  width: 100%;
+}
+.footer-content {
+  width: 100%;
+  height: 500px;
+  background-color: #5d5d5d;
+}
+.footer-left {
+  width: 60%;
+  padding-top: 50px;
+}
+
+/* footerのnav部分(左上部分) */
+.footer-list {
+  width: 80%;
+  color: var(--white);
+  height: 200px;
+  background-color: #5d5d5d;
+  /* background-color: rgb(7, 136, 248); */
+}
+
+/* 入れ子のul部分 */
+.footer-list-box {
+  width: 100%;
+}
+
+/* ↑の入れ子のli */
+.footer-list-box > li {
+  font-size: 25px;
+  margin: 30px;
+}
+
+/* linkのタイトル部分 */
+.footer-list-box > li > a {
+  color: var(--white);
+}
+
+/* linkの詳細部分 */
+.footer-list-box-list > li > a {
+  color: var(--white);
+}
+
+.footer-icons-list {
+  width: 80%;
+  align-items: center;
+  padding-top: 50px;
+  /* background-color: aqua; */
+}
+
+/* 右部分 */
+.footer-right {
+  width: 22%;
+  padding-top: 50px;
+}
+
+/* apple googleの幅 */
+.footer-right-lists {
+  margin: 10px;
+}
+
+/* icon達 */
+.footer-right-icons {
+  width: 200px;
+  border: 1px solid rgb(194, 192, 192);
+  border-radius: 5px;
+}
+
+/* form親 */
+.footer-right-form {
+  border-radius: 5px;
+  background-color: rgb(230, 229, 229);
+}
+
+/* form内指定 */
+.footer-right-forms {
+  padding-top: 20px;
+  margin: 30px;
+}
+
+/* formのボタン */
+.footer-right-btns {
+  margin: 10px;
+}
+
+/* footerの名前 */
+.footer-end {
+  height: 50px;
+  color: var(--white);
+  text-align: center;
+  background-color: #5d5d5d;
+  font-family: "Damion", cursive;
+}

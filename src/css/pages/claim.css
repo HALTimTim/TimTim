@@ -1,0 +1,24 @@
+.main-right #info{
+  display: flex;
+}
+#info img{
+  margin-left: 20%;
+}
+#info ul{
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.yoyaku{
+  width: 50%;
+  text-align: center;
+  margin-left: 20%;
+
+}
+.link{
+  width: 50%;
+  text-align: center;
+  margin-left: 20%;
+}
+.link #sub2{
+  margin-left: 2%;
+}

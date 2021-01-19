@@ -1,0 +1,36 @@
+#flex {
+    display: flex;
+}
+.productreg-title {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.main-right .productreg-list {
+    margin: 20px 0 0 70px;
+    list-style: none;
+    overflow: hidden;
+}
+.main-right .productreg-list li{
+    width: 140px;
+    text-align: center;
+    float: left;
+}
+.main-right .productreg-list li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.productreg-day {
+    margin: 20px 0 0 70px;
+}
+.productreg-text {
+    margin: 40px 0 0 80px;
+}
+.productreg-btn {
+    margin: 30px 0 0 110px;
+    width: 140px;
+    height: 30px;
+    font-size: 20px;
+    background-color: gray;
+    color: snow;
+    border-radius:5px;
+}

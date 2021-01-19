@@ -1,0 +1,109 @@
+p{
+  font-size: 15px;
+}
+
+li{
+  font-size: 16px;
+}
+
+dl,dt{
+  font-size: 15px;
+}
+
+.userinfo{
+  display: flex;
+}
+
+.userinfoicon img{
+  border-radius: 50%;
+  object-fit:cover;
+  object-position:0px 0px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.userinfoicon p{
+  text-align:center;
+}
+
+.userinfo-row{
+  display:flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+
+.userinfomain{
+  margin-bottom: 30px;
+}
+
+.userinfomain-name{
+  display: flex;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.userinfomain-name h3{
+  margin-right: 20px;
+}
+
+.userinfomain-name img{
+  border-radius: 50%;
+  object-fit:cover;
+  object-position:0px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.userinfomain-detail ul{
+  display:flex
+}
+
+.userachievement{
+  display: flex;
+}
+
+.userachievement h4{
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.userachievement-list{
+  display: flex;
+}
+
+.userachievement-list dd{
+  margin-right: 20px;
+}
+
+.userachievement-list dt{
+  margin-right: 5px;
+}
+
+.userspecialty{
+  display: flex;
+}
+
+.userspecialty h4{
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.userspecialty-list{
+  display: flex;
+}
+
+.doublebutton{
+  display: flex;
+  flex-direction: column;
+  margin-left: 23px;
+}
+.doublebutton button{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.post_img{
+  padding-right: 30px;
+  padding-bottom: 30px;
+}

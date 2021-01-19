@@ -1,0 +1,29 @@
+img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  /* この一行を追加するだけ！ */
+}
+
+.notfound {
+  width: 100%;
+  padding-top: 15%;
+}
+
+.notfound img {
+  width: 100%;
+  margin: 0 auto;
+}
+.outer{
+  position: relative;
+}
+.inner{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 3.2rem;
+}

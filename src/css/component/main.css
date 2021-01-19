@@ -1,0 +1,46 @@
+main {
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+}
+/* -------カテゴリ別------- */
+.main-left {
+  width: 15%;
+  height: 100%;
+  background-color: var(--base_color_o);
+  border: 5px solid var(--gray_o);
+  border-radius: 5px;
+}
+
+/* タイトル */
+.main-left-title {
+  font-size: 25px;
+  border-bottom: 5px solid var(--gray_o);
+  text-align: center;
+}
+
+/* 各カテゴリー (li部分)*/
+.main-left-list > li {
+  background-color: var(--white);
+  border: 1px solid rgb(167, 159, 159);
+  border-radius: 5px;
+  margin: 20px;
+  padding-left: 10px;
+}
+
+/* 各カテゴリーのhover */
+.main-left-list > li:hover {
+  opacity: 0.8;
+}
+
+/* link部分 */
+.main-left-list > li > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.main-right {
+  width: 70%;
+  /* background-color: pink; */
+}

@@ -1,0 +1,25 @@
+h3{
+  text-align: center;
+}
+
+.clearinginfo{
+  background-color: rgba(128, 128, 128, 0.432);
+}
+
+table th,td{
+  text-align: center;
+  font-size: 15px;
+}
+
+.clearinginfo-total{
+  background-color: rgba(128, 128, 128, 0.432);
+}
+
+.clearinginfo-total dl,dt{
+  text-align: center;
+}
+
+.posted-main-bottom-right-img-list-card img{
+  width: 20px;
+  height: auto;
+}

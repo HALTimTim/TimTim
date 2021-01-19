@@ -1,0 +1,73 @@
+.userinfoinput{
+  display: flex;
+}
+
+.userinfoinput-main{
+  display: flex;
+}
+
+.userinfoinput-icon img{
+  border-radius: 50%;
+  object-fit:cover;
+  object-position:0px 0px;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.userinfoinput-main h3{
+  margin-right: 20px;
+}
+
+.userinfoinput-main img{
+  border-radius: 50%;
+  object-fit:cover;
+  object-position:0px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.userinfoinput-row{
+  display:flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+
+.userinfoinput-mainlist{
+  display: flex;
+}
+
+.userinfoinput-mainfirst{
+  display: flex;
+  font-size: 15px;
+}
+
+input.hoge{
+  margin-right: 20px;
+}
+
+.userinfoinput-mainsecond{
+  font-size: 15px;
+}
+
+.userinfoinput-maintherd{
+  font-size: 15px;
+}
+
+.userinfoinput-mainforce{
+  font-size: 15px;
+}
+
+.userinfoinput-mainfifth{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.userinfoinput-mainfifth-second{
+  margin-left: 65px;
+}
+
+.userinfoinput-mainbutton{
+  margin-top: 10px;
+}

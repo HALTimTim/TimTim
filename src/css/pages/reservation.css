@@ -1,0 +1,38 @@
+.title{
+  margin-top: 3%;
+
+  text-align: center;
+}
+.main-right #information{
+  background-color: white;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 3%;
+  display: flex;
+}
+.main-right #info{
+  display: flex;
+}
+]#info img{
+  margin-left: 30%;
+}
+#info ul{
+  margin-top: 3%;
+  margin-left: 15%;
+}
+.btn form input{
+  margin-left: 20%;
+}
+.btn form input#sub1{
+  margin-top: 10%;
+}
+.btn form input#sub2{
+  margin-top: 35%;
+}
+.prof{
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+  background-color: #5ac7d1;
+  width: 65%;
+}

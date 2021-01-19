@@ -1,0 +1,147 @@
+/* ----------変数---------- */
+:root {
+  --base_color: #cfb8ab;
+  --base_color_o: #cfb8abbf;
+
+  --gray: #6c757d;
+  --gray_o: #6c757dab;
+
+  --white: #ffffff;
+}
+
+/* ----------カラー---------- */
+.color1 {
+  background-color: #cdb1af;
+}
+.color2 {
+  background-color: #cfb8ab;
+}
+.color3 {
+  background-color: #cfb8ab;
+}
+.color4 {
+  background-color: #d4beaa;
+}
+.color5 {
+  background-color: #b0aab1;
+}
+/*---------- header-gnav部分 ----------*/
+/*子階層以降共通*/
+.gnav {
+  height: 2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+/*全てのリスト・リンク共通*/
+.gnav li {
+  list-style: none;
+  position: relative;
+}
+.gnav li a {
+  border-radius: 5px;
+  background: #777a7c;
+  border-right: 1px solid #eee;
+  color: #fff;
+  display: block;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.gnav li a:hover {
+  background: #b0aab1;
+}
+/*子階層以降共通*/
+.gnav li li {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 0.5s;
+}
+.gnav li li a {
+  border-top: 1px solid #eee;
+}
+.gnav li:hover > ul > li {
+  height: 2rem;
+  opacity: 1;
+  overflow: visible;
+}
+.gnav li ul li ul {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/*一番右のメニュー*/
+.gnav > li:nth-child(5) ul li ul {
+  left: -100%;
+}
+/*hover*/
+.gnav > li:hover > a {
+  /*親階層*/
+  background: #00305c;
+}
+
+.gnav > li li > a {
+  /*子階層*/
+  background: #00305c;
+}
+.gnav > li li:hover > a {
+  background: #004789;
+}
+
+.gnav li ul li ul li > a {
+  /*孫階層*/
+  background: #acaaaa;
+}
+.gnav li ul li ul li:hover > a {
+  background: #0065c1;
+}
+
+.gnav li ul li ul li ul li > a {
+  /*ひ孫階層*/
+  background: #0065c1;
+}
+.gnav li ul li ul li ul li:hover > a {
+  background: #1e7dd4;
+}
+
+/*リストに「▶︎」を付ける*/
+.gnav > li > ul:before {
+  /*子階層*/
+  border: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  right: 1rem;
+  position: absolute;
+  top: 1rem;
+  transform: translateY(-40%);
+}
+.gnav li ul li ul:before {
+  /*孫階層*/
+  border: 5px solid transparent;
+  border-left: 5px solid #fff;
+  content: "";
+  left: -20px;
+  position: absolute;
+  top: 0.85em;
+  transform: translateY(-50%);
+}
+.gnav li:nth-child(5) ul li ul:before {
+  /*一番右のメニューの孫階層*/
+  border: 5px solid transparent;
+  border-right: 5px solid #fff;
+  left: auto;
+  right: -20px;
+}
+/* リストに「⬇️」を付ける */
+.nav-downicon:before {
+  border: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  right: 0.85rem;
+  position: absolute;
+  top: 1rem;
+  transform: translateY(-40%);
+}
